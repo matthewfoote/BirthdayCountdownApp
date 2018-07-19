@@ -1,8 +1,9 @@
 
-$color-blue-one: #5496E6;
-$color-blue-two: #518BDE;
+$color-blue-one: #5dba77;
+$color-blue-two: #31bc59;
 
-$color-gray-one: #444;
+
+$color-gray-one: #3d423e;
 
 .grid {
     height: 100vh;
@@ -11,6 +12,7 @@ $color-gray-one: #444;
     display: grid;
     grid-template-rows: repeat(4, minmax(50.5px, 1fr));
     grid-template-columns: repeat(11, minmax(150px,1fr));
+    
     
     
     &__title {
