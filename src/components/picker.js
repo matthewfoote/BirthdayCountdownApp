@@ -9,7 +9,7 @@ class Picker extends Component {
     
     
     
-      constructor (props) {
+  constructor (props) {
     super(props);
     this.state = {
       startDate: moment()

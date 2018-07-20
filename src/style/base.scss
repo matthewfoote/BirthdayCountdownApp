@@ -1,9 +1,12 @@
 
-$color-blue-one: #5dba77;
-$color-blue-two: #31bc59;
-$color-gray-one: #444;
-$color-yellow-one: #F7D754;
+$color-blue-one: #31bc59;
+$color-blue-two: #5dba77;
+$color-yellow-one: #f7b754;
+$color-gray-two: #e6e6e6;
+$color-gray-one: #3d423e;
 
+$font-roboto: "Roboto Condensed";
+$font-mont: "Montserrat";
 
 .grid {
     height: 100vh;
@@ -12,7 +15,6 @@ $color-yellow-one: #F7D754;
     display: grid;
     grid-template-rows: repeat(4, minmax(50.5px, 1fr));
     grid-template-columns: repeat(11, minmax(150px,1fr));
-    
     
     
     &__title {
@@ -25,9 +27,23 @@ $color-yellow-one: #F7D754;
        //Z-index was set to fix a problem not in the guides.
        font-size: 18px;
        color: white;
-       font-family: 'Montserrat';
+       font-family: $font-mont;
        font-weight: 300;
        line-height: 22px;
        padding: 55px 75px;
+    }
+    
+    &__remaining {
+        grid-row: 4/5;
+        grid-column: 1/-1;
+        
+        text-align: center;
+        margin-top: 33px;
+        
+        color: $color-gray-one;
+        font-family: $font-mont;
+        font-size: 22px;
+        font-weight: 300;
+        text-align: center;
     }
 }
