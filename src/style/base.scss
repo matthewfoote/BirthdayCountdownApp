@@ -14,7 +14,7 @@ $font-mont: "Montserrat";
    
     display: grid;
     grid-template-rows: repeat(4, minmax(50.5px, 1fr));
-    grid-template-columns: repeat(11, minmax(150px,1fr));
+    grid-template-columns: repeat(10, minmax(150px,1fr));
     
     
     &__title {
@@ -25,10 +25,10 @@ $font-mont: "Montserrat";
        // align-self: center;
        z-index: 1;
        //Z-index was set to fix a problem not in the guides.
-       font-size: 18px;
+       font-size: 28px;
        color: white;
        font-family: $font-mont;
-       font-weight: 300;
+       font-weight: 500;
        line-height: 22px;
        padding: 55px 75px;
     }
@@ -40,7 +40,7 @@ $font-mont: "Montserrat";
         text-align: center;
         margin-top: 33px;
         
-        color: $color-gray-one;
+        color: $color-yellow-one;
         font-family: $font-mont;
         font-size: 22px;
         font-weight: 300;
