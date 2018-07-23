@@ -5,7 +5,7 @@ const Button = (title, callback) => {
             <button className="button" onClick={callback}>
                 {title}
             </button>
-        );
-};
+        )
+}
 
 export default Button;
